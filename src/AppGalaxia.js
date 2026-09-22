@@ -267,7 +267,7 @@ function BloqueContenido({
           position: "relative",
           zIndex: 2,
           fontSize: window.innerWidth < 768 ? "32px" : "42px",
-          marginBottom: "40px",
+          marginBottom: "-10px",
           color: "#d6b36a",
           fontFamily: "'Montserrat', sans-serif",
           letterSpacing: "4px",
@@ -385,8 +385,8 @@ export default function AppGalaxia() {
 
           <div
             style={{
-              marginTop: "40px",
-              paddingTop: "30px",
+              marginTop: "-10px",
+              paddingTop: "10px",
               borderTop: "1px solid #d6b36a",
               fontFamily: "'Cormorant Garamond', serif",
               fontSize: "22px",
@@ -434,6 +434,7 @@ export default function AppGalaxia() {
       {seccion === "personajes" && (
         <BloqueContenido
           titulo="LOS PERSONAJES"
+          paddingTop="2px"
           setSeccion={setSeccion}
           anterior="historia"
           siguiente="manuscritos"
@@ -444,7 +445,7 @@ export default function AppGalaxia() {
             style={{
               fontSize: "28px",
               color: "#d6b36a",
-              marginBottom: "10px",
+              marginBottom: "-40px",
             }}
           >
             DAVID
@@ -460,7 +461,7 @@ export default function AppGalaxia() {
             style={{
               fontSize: "28px",
               color: "#d6b36a",
-              marginBottom: "10px",
+              marginBottom: "-40px",
             }}
           >
             MARCOS
@@ -476,13 +477,13 @@ export default function AppGalaxia() {
             style={{
               fontSize: "28px",
               color: "#d6b36a",
-              marginBottom: "10px",
+              marginBottom: "-40px",
             }}
           >
             ADRIÁN
           </h3>
 
-          <p style={{ marginBottom: "20px" }}>
+          <p style={{ marginBottom: "-20px" }}>
             Creyéndole ajeno a cuanto ocurre a su alrededor, Adrián escucha
             desde la cama del hospital las voces de su padre y de su abuelo.
           </p>
