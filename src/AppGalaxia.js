@@ -470,7 +470,7 @@ export default function AppGalaxia() {
             MARCOS
           </h3>
 
-          <p style={{ marginBottom: "20px" }}>
+          <p style={{ fontFamily: "Arial, sans-serif", marginBottom: "20px" }}>
             Viendo a su hijo destrozado y a su nieto en las puertas de la
             muerte, Marcos recurre a unas reflexiones escritas muchos años atrás
             con la esperanza de que Adrián aún pueda oírle.
