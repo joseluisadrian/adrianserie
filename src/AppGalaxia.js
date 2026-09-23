@@ -267,6 +267,7 @@ function BloqueContenido({
           position: "relative",
           zIndex: 2,
           fontSize: window.innerWidth < 768 ? "32px" : "42px",
+          lineHeight: "48px",
           marginBottom: "-10px",
           color: "#d6b36a",
           fontFamily: "'Montserrat', sans-serif",
