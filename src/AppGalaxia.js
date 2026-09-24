@@ -48,6 +48,44 @@ function Portada({ setSeccion, menuAbierto, setMenuAbierto }) {
         }}
       />
 
+      <div
+        style={{
+          position: "absolute",
+          bottom: "90px",
+          left: window.innerWidth < 768 ? "20px" : "60px",
+          display: window.innerWidth < 768 ? "none" : "block",
+          zIndex: 5,
+          width: "90%",
+        }}
+      >
+        <h1
+          style={{
+            fontFamily: "'Cormorant Garamond', serif",
+            fontSize: window.innerWidth < 768 ? "36px" : "72px",
+            color: "white",
+            margin: 0,
+            letterSpacing: "6px",
+            fontWeight: 300,
+            textShadow: "0 4px 20px rgba(0,0,0,0.7)",
+          }}
+        >
+          ADRIÁN
+        </h1>
+
+        <p
+          style={{
+            fontFamily: "'Montserrat', sans-serif",
+            fontSize: window.innerWidth < 768 ? "14px" : "18px",
+            color: "white",
+            marginTop: "8px",
+            letterSpacing: "3px",
+            textTransform: "lowercase",
+            textShadow: "0 4px 12px rgba(0,0,0,0.7)",
+          }}
+        >
+          tres generaciones, dos manuscritos
+        </p>
+      </div>
 
       {window.innerWidth < 768 && (
         <button
@@ -414,9 +452,7 @@ export default function AppGalaxia() {
             DAVID
           </h3>
 
-          <p style={{
-              fontFamily: "Arial, sans-serif",
-              marginBottom: "30px" }}>
+          <p style={{ marginBottom: "30px" }}>
             Ante las mil incógnitas que rodean el estado de su hijo Adrián,
             David recurre a su padre sin imaginar que ese gesto acabará dando
             respuesta a preguntas que jamás supo hacerse.
@@ -432,7 +468,7 @@ export default function AppGalaxia() {
             MARCOS
           </h3>
 
-          <p style={{ fontFamily: "Arial, sans-serif", marginBottom: "20px" }}>
+          <p style={{ marginBottom: "20px" }}>
             Viendo a su hijo destrozado y a su nieto en las puertas de la
             muerte, Marcos recurre a unas reflexiones escritas muchos años atrás
             con la esperanza de que Adrián aún pueda oírle.
@@ -440,7 +476,6 @@ export default function AppGalaxia() {
 
           <h3
             style={{
-             fontFamily: "'Montserrat', sans-serif", 
               fontSize: "28px",
               color: "#d6b36a",
               marginBottom: "-40px",
@@ -449,12 +484,12 @@ export default function AppGalaxia() {
             ADRIÁN
           </h3>
 
-          <p style={{ fontFamily: "Arial, sans-serif", marginBottom: "-20px" }}>
+          <p style={{ marginBottom: "-20px" }}>
             Creyéndole ajeno a cuanto ocurre a su alrededor, Adrián escucha
             desde la cama del hospital las voces de su padre y de su abuelo.
           </p>
 
-          <p style={{fontFamily: "Arial, sans-serif", marginBottom: "30px" }}>
+          <p style={{ marginBottom: "30px" }}>
             Por primera vez comprende que nunca llegó a conocer realmente a
             ninguno de los dos.
           </p>
