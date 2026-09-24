@@ -48,17 +48,6 @@ function Portada({ setSeccion, menuAbierto, setMenuAbierto }) {
         }}
       />
 
-      <div
-        style={{
-          position: "absolute",
-          bottom: "90px",
-          left: window.innerWidth < 768 ? "20px" : "60px",
-          display: window.innerWidth < 768 ? "none" : "block",
-          zIndex: 5,
-          width: "90%",
-        }}
-      
-      </div>
 
       {window.innerWidth < 768 && (
         <button
