@@ -613,9 +613,6 @@ export default function AppGalaxia() {
     </div>
   );
 }
-portada.png";
-import articuloPrensa from "./articuloPrensa.jpeg";
-import manuscrito from "./manuscritos.PNG";
 
 const buttonStyle = {
   background: "transparent",
