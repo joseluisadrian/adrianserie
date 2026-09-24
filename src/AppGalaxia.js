@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "@fontsource/cormorant-garamond";
 import "@fontsource/montserrat";
-import posterfinal from "./posterfinal.png";
+import posterfinal from "./posterfina2.png";
 import articuloPrensa from "./articuloPrensa.jpeg";
 import manuscrito from "./manuscritos.PNG";
 
