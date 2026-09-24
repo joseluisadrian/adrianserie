@@ -57,34 +57,7 @@ function Portada({ setSeccion, menuAbierto, setMenuAbierto }) {
           zIndex: 5,
           width: "90%",
         }}
-      >
-        <h1
-          style={{
-            fontFamily: "'Cormorant Garamond', serif",
-            fontSize: window.innerWidth < 768 ? "36px" : "72px",
-            color: "white",
-            margin: 0,
-            letterSpacing: "6px",
-            fontWeight: 300,
-            textShadow: "0 4px 20px rgba(0,0,0,0.7)",
-          }}
-        >
-          ADRIÁN
-        </h1>
-
-        <p
-          style={{
-            fontFamily: "'Montserrat', sans-serif",
-            fontSize: window.innerWidth < 768 ? "14px" : "18px",
-            color: "white",
-            marginTop: "8px",
-            letterSpacing: "3px",
-            textTransform: "lowercase",
-            textShadow: "0 4px 12px rgba(0,0,0,0.7)",
-          }}
-        >
-          tres generaciones, dos manuscritos
-        </p>
+      
       </div>
 
       {window.innerWidth < 768 && (
