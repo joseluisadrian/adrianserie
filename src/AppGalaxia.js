@@ -453,8 +453,7 @@ export default function AppGalaxia() {
             DAVID
           </h3>
 
-          <p style={{ marginBottom: "20px",
-               maxWidth: "100%",}}>
+          <p style={{ marginBottom: "20px", width: "100%", maxWidth: "100%",}}>
             Ante las mil incógnitas que rodean el estado de su hijo Adrián,
             David recurre a su padre sin imaginar que ese gesto acabará dando
             respuesta a preguntas que jamás supo hacerse.
@@ -471,8 +470,7 @@ export default function AppGalaxia() {
             MARCOS
           </h3>
 
-          <p style={{ marginBottom: "20px",
-                   maxWidth: "100",}}>
+          <p style={{ marginBottom: "20px", width: "100%", maxWidth: "100%",}}>
             Viendo a su hijo destrozado y a su nieto en las puertas de la
             muerte, Marcos recurre a unas reflexiones escritas muchos años atrás
             con la esperanza de que Adrián aún pueda oírle.
@@ -489,14 +487,12 @@ export default function AppGalaxia() {
             ADRIÁN
           </h3>
 
-          <p style={{ marginBottom: "-20px",
-                   maxWidth: "100%",}}>
+          <p style={{ marginBottom: "-20px", width: "100%", maxWidth: "100%",}}>
             Creyéndole ajeno a cuanto ocurre a su alrededor, Adrián escucha
             desde la cama del hospital las voces de su padre y de su abuelo.
           </p>
 
-          <p style={{ marginBottom: "20px",
-                    maxWidth: "100%",}}>
+          <p style={{ marginBottom: "20px", width: "100%", maxWidth: "100%",}}>
             Por primera vez comprende que nunca llegó a conocer realmente a
             ninguno de los dos.
           </p>
