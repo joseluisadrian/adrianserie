@@ -444,7 +444,7 @@ export default function AppGalaxia() {
         >
           <h3
             style={{
-              fontSize: "23px",
+              fontSize: "28px",
               color: "#d6b36a",
               marginBottom: "-40px",
             }}
