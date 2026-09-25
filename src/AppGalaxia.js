@@ -15,7 +15,7 @@ const buttonStyle = {
   cursor: "pointer",
   textTransform: "uppercase",
   textShadow: "0 1px 5px rgba(0,0,0,0.9)",
-  fontWeight: 500,
+  fontWeight: "300",
 };
 
 const navButtonStyle = {
