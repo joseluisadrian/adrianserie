@@ -441,6 +441,7 @@ export default function AppGalaxia() {
           siguiente="manuscritos"
           anteriorText="◀ anterior"
           siguienteText="siguiente ▶"
+          style={{ maxWidth: "800px", width: "100%" }}  
         >
           <h3
             style={{
