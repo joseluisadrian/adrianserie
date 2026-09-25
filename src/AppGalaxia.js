@@ -453,7 +453,8 @@ export default function AppGalaxia() {
             DAVID
           </h3>
 
-          <p style={{ marginBottom: "30px" }}>
+          <p style={{ marginBottom: "20px",
+               maxWidth: "100%",}}>
             Ante las mil incógnitas que rodean el estado de su hijo Adrián,
             David recurre a su padre sin imaginar que ese gesto acabará dando
             respuesta a preguntas que jamás supo hacerse.
@@ -494,7 +495,7 @@ export default function AppGalaxia() {
             desde la cama del hospital las voces de su padre y de su abuelo.
           </p>
 
-          <p style={{ marginBottom: "30px",
+          <p style={{ marginBottom: "20px",
                     maxWidth: "100%",}}>
             Por primera vez comprende que nunca llegó a conocer realmente a
             ninguno de los dos.
